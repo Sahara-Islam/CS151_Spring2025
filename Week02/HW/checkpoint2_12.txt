@@ -4,6 +4,7 @@ Which of the following is a character literal? Why?
 
 /* Write your answer below.
 ************************************************************************************************
-
+'B' is literal because of the single quotes which repreents a single character 
+"B" is a string literal because of the double quotes and it represents a string which has an array of characters
 ************************************************************************************************
 */

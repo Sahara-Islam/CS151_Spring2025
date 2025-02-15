@@ -3,7 +3,8 @@ char letter = "Z";
 
 /* Write your answer below.
 ************************************************************************************************
-
+The double quotes is the issue, this is a single character so for single character's you only use
+a single quote. You only use double quotes when there is multiple letters.
 
 
 ************************************************************************************************

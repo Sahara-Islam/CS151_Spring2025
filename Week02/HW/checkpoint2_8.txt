@@ -2,7 +2,8 @@ Is the variable name Sales the same as sales? Why or why not?
 
 /* Write your answer below.
 ************************************************************************************************
-
+Sales is a different variable from sale 
+Sales has an uppercase S at the beginning and sales has a lower case S in the beginning 
 
 
 ************************************************************************************************

@@ -8,9 +8,13 @@ grade_report
 
 /* Write your answers below.
 ************************************************************************************************
-
-
-
+X is legal because it's a letter and a letter is a valid variable name.
+99bottles is illegeal, it starts with a number 
+july97 is legal because it starts with a letter and it has numbers
+theSalesFigureForFiscalYear98 is a valid name because it starts with a letter and it contains digits
+r&d is illegal because special characters like & aren't allowed in c++
+only underscores, letters, digits and letters allowed 
+grade_report is legal becauseit starts with a letter and it has an underscore which is being used properly 
 
 ************************************************************************************************
 */
