@@ -1,3 +1,6 @@
 Is the following assignment statement valid or invalid? If it is invalid, why?
 
 72 = amount;
+
+no it is not valid B/C you need to state with int since it is a # variable.
+No code starts use numbers, you cannot start a code with numbers

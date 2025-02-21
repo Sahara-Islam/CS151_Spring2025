@@ -1,2 +1,6 @@
 Yes or No: Is there an unsigned floating-point data type? If so, what is it?
+ No there is no unassigned floating point data type because
+ floating point types always include a sign bit which allows 
+ them to represent both positive and negative values
 
+ 

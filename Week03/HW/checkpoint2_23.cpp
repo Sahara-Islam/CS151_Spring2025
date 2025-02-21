@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
-    number = 62.7;
-    double number;
+    float number = 62.7;
+    
     cout << number << endl;
+
     return 0;
 }
