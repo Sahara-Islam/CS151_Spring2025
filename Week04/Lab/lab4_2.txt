@@ -20,3 +20,4 @@
     side_a = 8, side_b = 15
     The output should be:
     side_c = 17
+    
