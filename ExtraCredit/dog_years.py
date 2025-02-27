@@ -17,4 +17,7 @@ python dog_years.py
 
 if __name__ == "__main__":
     ...
-    
+    age = int(input("Enter your age in human years "))
+    dog_years = age * 7
+
+    print("Your age in dog years is  ", dog_years)
