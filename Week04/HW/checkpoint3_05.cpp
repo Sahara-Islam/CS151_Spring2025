@@ -9,8 +9,11 @@ int main()
 {
     double first, second, product;
     
-    cin >> first >> second;
+    cout << "Enter first number: ";
+    cin >> first >> second; 
+
     product = first * second;
-    cout << product;
+    cout << "The product of the two numbers is: " << product << endl;
+   
     return 0;
 }

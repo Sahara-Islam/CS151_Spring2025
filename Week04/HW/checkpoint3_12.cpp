@@ -10,6 +10,11 @@ int main()
 {
     char letter;
     
+    cout << "please enter a character: "; 
+    cin >> letter; 
+
+    cout << "The ACSII code of " << letter << " is: " << int(letter) << endl; 
+
     // Finish this program
     // as specified above.
     return 0;

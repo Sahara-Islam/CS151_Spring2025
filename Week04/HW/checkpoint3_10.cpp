@@ -16,10 +16,16 @@ int main()
     double volume, radius, height;
     cout << "This program will tell you the volume of\n";
     cout << "a cylinder-shaped fuel tank.\n";
+
     cout << "How tall is the tank? ";
     cin >> height;
+
+    volume = 3.141459 * pow(radius, 2) * height; 
+
     cout << "What is the radius of the tank? ";
     cin >> radius;
+
+    cout << "The volume of the tank is: " << volume << " cubic units.\n";
     // You must complete the program.
     return 0;
 }

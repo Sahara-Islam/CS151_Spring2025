@@ -5,9 +5,9 @@ Write C++ expressions for the following algebraic expressions:
 ANSWER BELOW
 ***************************************************************************
 ```cpp
-y =
-a = 
-y = 
-g = 
-y = 
+y = 6 * x 
+a = a * b + 4 * c
+y = x * x 
+g = x + 2 / pow(z, 2 )
+y = pow(x, 2) / pow (z,2 )
 ```

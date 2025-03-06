@@ -8,12 +8,13 @@ using namespace std;
 int main()
 {
     double pounds, kilograms;
-    cout << "Enter your weight: "; // Write code here that prompts the user
-    // to enter his or her weight and reads
-    // the input into the pounds variable.
+    cout << "Enter your weight in pounds: "; // Write code here that prompts the user
+    cin >> pounds;       // to enter his or her weight and reads
+              // the input into the pounds variable.
 
     // The following line does the conversion.
     kilograms = pounds / 2.2;
+    cout << "Your weight in kilogram is: " << kilograms << endl;
     
     // Write code here that displays the user's weight
     // in kilograms.

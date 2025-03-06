@@ -8,4 +8,4 @@ cin >> value;
 
 ANSWER BELOW
 *******************************************************************************************
-D, Nothing an error message will be displayed
+B
