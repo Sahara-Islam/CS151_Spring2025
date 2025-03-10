@@ -1,18 +1,21 @@
 
 //The following program will not compile because the lines have been mixed up:
-#include <iomanip>
-}
-cout << person << endl;
-string person = "Wolfgang Smith";
-int main()
-cout << person << endl;
-{
 #include <iostream>
-return 0;
-cout << left;
+#include <iomanip>
+
 using namespace std;
-cout << setw(20);
-cout << right;
+
+int main() {
+      string person = "Wolfgang Smith";
+
+      cout << setw(20) << left << person << endl;
+
+      cout << setw(20) << right << person << endl;
+
+      return 0;
+}
+
+
 
 /*
 When the lines are properly arranged, the program should display the following:
