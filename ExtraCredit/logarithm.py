@@ -8,6 +8,8 @@ Only use the log function from the math module.
 """
 from math import log
 
+
+
 if __name__ == "__main__":
     ...
     log_base_10 = log(10000)/ log(10)
