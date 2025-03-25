@@ -1,40 +1,52 @@
 1. How many operands does each of the following types of operators require?
-    _______ Unary
-    _______ Binary
-    _______ Ternary
+    ____1___ Unary 
+    ______2_ Binary
+    ___3____ Ternary
 
 2. How may the double variables temp, weight, and age be defined in one statement?
-    cin << temp << weight << age; 
+    double temp, weight, age; 
 
 3. How can the values of three variables length, breadth, and height be displayed
 using one statement, such that each variable is displayed in a new line?
-    
+     cout << length << endl << breadth << endl << height << endl; 
+
 
 4. Assume that x is an integer variable, y is a floating-point variable, and z is a character
 variable. Write statements in C++ to perform the following operations:
 
-    (A) Add 10 to x.
+    (A) Add 10 to x. x = x + 10; 
 
-    (B) Square the value of y.
+    (B) Square the value of y. 
+
+    y = y * y; 
 
     (C) Divide x by 7 and store the result in y.
 
+    y = x / 7.0; 
+
     (D) Store '&' in z.
+
+    z = '&'
 
     (E) Display the values of y and z on the screen.
 
+    cout << y << z << endl; 
+
     (F) Display the rightmost digit of x on the screen.
+
+    cout << x % 10 << '\n';
 
     (G) Display the number of bytes used by an integer variable.
 
+    cout << sizeof (double) << " bytes\n";
 
 5. Is the following comment written using single-line or multi-line comment symbols?
     /* This program was written by M. A. Codewriter*/
-
+Multiline comment
 
 6. Is the following comment written using single-line or multi-line comment symbols?
     // This program was written by M. A. Codewriter
-
+Single line comment 
 
 7. Modify the following program so it prints two blank lines between each line of text.
 
@@ -43,10 +55,10 @@ variable. Write statements in C++ to perform the following operations:
 
     int main()
     {
-        cout << "Two mandolins like creatures in the";
-        cout << "dark";
-        cout << "Creating the agony of ecstasy.";
-        cout << "                    - George Barker";
+        cout << "Two mandolins like creatures in the" << endl << endl;
+        cout << "dark" << endl << endl;
+        cout << "Creating the agony of ecstasy." << endl << endl; 
+        cout << "                    - George Barker"; << endl << endl;
         return 0;
     }
 
@@ -63,6 +75,7 @@ variable. Write statements in C++ to perform the following operations:
             cout << freeze << endl << boil << endl;
             return 0;
         }
+        0 100
 
     (B) #include <iostream>
         using namespace std;
@@ -74,6 +87,9 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << y << endl;
             return 0;
         }
+
+        8
+
     (C) #include <iostream>
         using namespace std;
 
@@ -84,7 +100,14 @@ variable. Write statements in C++ to perform the following operations:
             cout << "\nand I will\namaze\n";
             cout << "you.";
             return 0;
-        }
+        }k
+        I am the incredible 
+        computing 
+        machine 
+        and I will 
+        amaze
+        you
+
     (D) #include <iostream>
         using namespace std;
 
@@ -95,6 +118,11 @@ variable. Write statements in C++ to perform the following operations:
             cout << "question\n";
             return 0;
         }
+        
+        Be careful
+        This might
+        be a trick 
+        question
 
     (E) #include <iostream>
         using namespace std;
@@ -106,3 +134,6 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << a << endl;
             return 0;
         }
+
+        23
+        1

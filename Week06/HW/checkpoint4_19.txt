@@ -9,3 +9,8 @@ following conditions is True or False:
 
 ANSWER BELOW
 *******************************************************************************\
+a true 
+b false 
+c true 
+d true 
+e true 

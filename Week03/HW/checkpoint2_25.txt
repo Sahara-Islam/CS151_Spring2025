@@ -7,3 +7,9 @@ Literal Value       Description
 32.2                The gravitational acceleration constant (in ft/s2)
 9.8                 The gravitational acceleration constant (in m/s2)
 1609                Number of meters in a mile
+
+const double EULERS_NUMBEr = 2.71828; 
+const double MINUTES_IN_A_YEAR = 5.256E5;
+const double GRAVITY_FT_SQ = 32.2; 
+const double GRAVITY_M_SQ = 9.8; 
+const double METERS_IN_MILE = 1609; 

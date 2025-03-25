@@ -1,0 +1,70 @@
+Midterm Review
+Chapter 1
+• What is a computer?
+• What are the main hardware components of a computer?
+• What is a program?
+• What is an algorithm?
+• What is machine language? What does it consist of?
+• What is a high-level programming language? What is a low-level programming language?
+
+Chapter 2
+• What object is required to output information to the console? cout
+• What header file must be included at the top a program to use the object in last question? #include <iostream>
+• What statement should be included before main to avoid prefixing std:: before common
+standard objects? using namespace std;
+• What is a literal? 
+• What is a variable?
+• How are variables declared?
+• What is variable initialization?
+• What is variable assignment?
+• Can a variable be used before it has been declared?
+• What are the rules for naming a variable?
+• What is a char data type? How many bytes of memory does a char contain?
+• What is a string literal? How many bytes of memory does a string literal contain?
+• What is a bool data type? How many bytes of memory does a bool contain?
+• What is an int data type? How many bytes of memory does an int contain?
+• What are the float and double data types? How many bytes of memory does a float
+contain? How many bytes of memory does a double contain?
+• What is a string object?
+• What header file should be included to declare string objects?
+• What is a unary operation? What is the unary arithmetic operator?
+• What is a binary operation? What are the binary arithmetic operators?
+• How is a single line comment written?
+• How is a multi-line comment written?
+• What is a named constant?
+
+Chapter 3
+• What object is required to retrieve information from the console?
+• What header file must be included at the top a program to use the object in last question?
+• What order of operations is followed with mathematical expressions?
+• What is the modulus operator? What mathematical precedence does the operator hold?
+• What is type conversion?
+• When dividing an integer by an integer, what happens to the numbers after the decimal
+point?
+• What is multiple assignment? In what direction is the assignment performed?
+• What is combined assignment?
+• What header file is necessary to manipulate the output of your code to the terminal?
+• What is setw? What is left? What is right? What is setprecision? What is fixed?
+• What is getline?
+• What header file should be included to use certain mathematical functions?
+• What is pow? What is sqrt?
+• What function is used to generate a random number? rand() % 100 + 1
+• What header file must be included at the top a program to use the function in last
+question? <cstdlib>
+• Since the random function yields the same number each time the program is run, what
+statement should be added to the top of the main program to ensure the number is not
+always the same each run through? srand(time(0));
+• What additional header file should be included to ensure the random number is not always
+the same? <ctime>
+Chapter 4
+• What are the 6 relational operators? 
+• What is an if statement?
+• What is an if/else statement?
+• What is a nested if statement?
+• What is an if/else if statement?
+• An if statement takes a Boolean expression as it’s condition. With respect to Boolean
+expressions, any expression that does not result in 0 is considered what?
+• What are the 3 logical operators? && || !
+• How are char variables compared? How are strings compared? 
+• What is the conditional operator a.k.a. a ternary expression?
+• What is a switch statement? What are the rules of a switch statemen

@@ -5,9 +5,9 @@ Refer to the data types listed in Table 2-6 for these questions.
 
 /* Write your answers below.
 ************************************************************************************************
-1. int would be used because it uses integer values
-2. using int for longer numbers should be fine 
-3. 20 is a literal value, so you can use int by default, 20L is a long literal so the L specifies that it's a long integer 
+A. best data type is unsigned short 
+B. best data type should be unsigned int or int 
+C. 20L uses more memory than 20 
 
 ************************************************************************************************
 */

@@ -1,5 +1,5 @@
 ## Slides
-- [Chapter 4](../Slides/Chapter04.pdf)
+- [Chapter 7](../Slides/Chapter07.pdf)
 
 ## Homework
   
