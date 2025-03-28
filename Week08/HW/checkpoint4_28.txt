@@ -11,3 +11,5 @@ switch (temp)
 
 ANSWER BELOW
 *******************************************************************************
+It's better to use if/else statements instead of switch for this code. 
+It can only be used as constant expressions

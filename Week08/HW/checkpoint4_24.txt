@@ -18,3 +18,7 @@ Rewrite the following if/else statements as conditional expressions:
 
 ANSWER BELOW
 *******************************************************************************
+A. z = ( z > y) ? 1: 20; 
+B. population = (temp > 45) ? base * 10: base * 2; 
+C. wages *= (hours > 40) ? 2.5: 1; 
+D. cout << (resylt >= 0)? "The result is positive" : "The result is negative"; 

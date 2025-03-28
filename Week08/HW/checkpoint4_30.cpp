@@ -12,8 +12,20 @@ int main()
     int userNum;
     cout << "Enter one of the numbers 1, 2, or 3: ";
     cin >> userNum;
-    //
-    // Write the switch statement here.
-    //
+    
+    switch (userNum) {
+        case 1: 
+            cout << "one" << endl; 
+            break;//
+        case 2: 
+            cout << "two" << endl; 
+            break;//// Write the switch statement here.
+         case 3: 
+            cout << "three" << endl; 
+            break; //
+        default:
+            cout << "Error, Invalid number entered." << endl; //
+            break;
+    }
     return 0;
 }
