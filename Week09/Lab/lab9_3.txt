@@ -8,4 +8,4 @@ If the user’s guess is higher than the random number, the program should
 display “Too high, try again.” If the user’s guess is lower than the random number, the
 program should display “Too low, try again.” The program should use a loop that
 repeats until the user correctly guesses the random number in which case the program will end
-displaying “Congratulations! You guessed the number!”
+displaying “Congratulations! You guessed the number!
