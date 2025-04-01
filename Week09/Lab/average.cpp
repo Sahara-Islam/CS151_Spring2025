@@ -16,25 +16,35 @@ array elements followed by the average to two decimal places. */
 using namespace std;
 
 int main() {
-    
-    srand(time(0)); 
-    int const N = rand() % 16 + 5;  
 
-    
+    const int N = rand() % 16 + 5; // Random number between 5 and 20
+   
+    srand(time(0));
+
     int arr[N];
 
     for (int i = 0; i < N; i++) {
-        arr[i] = rand() % 101;  //
+        arr[i] = rand() % 101;  
     }
-
     cout << "[";
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; i++) {
         cout << arr[i];
         if (i < N - 1) {
-            cout << ", ";  
+            cout << ", ";
         }
     }
     cout << "]" << endl;
 
+    int sum = 0;
+    for (int i = 0; i < N; i++) {
+        sum += arr[i];
+    }
+    double average = static_cast<double>(sum) / N;
 
-   
+    cout << "Sum: " << sum << endl;
+    cout << "Average: " << fixed << setprecision(2) << average << endl;
+
+    return 0;
+}
+
+
