@@ -1,4 +1,4 @@
-Fibonacci number
+/*Fibonacci number
 
 Create a file in Week10/Lab called fibonacci.cpp
 
@@ -28,4 +28,34 @@ The program should print the Fibonacci number for the user-defined integer.
 9. Update the current Fibonacci number to the new Fibonacci number.
 10. Update the previous Fibonacci number to the current Fibonacci number.
 11. After the loop, print the Fibonacci number for the user-defined integer.
-12. Return 0 to indicate successful completion of the program.
+12. Return 0 to indicate successful completion of the program.*/
+
+#include <iostream>
+#include <string> 
+#include <fstream>
+
+using namespace std; 
+
+int main (){
+
+    int fibonacciNumber; 
+    int currentFibonacci; 
+    int userNumber; 
+    int previousFibonacci; 
+    
+    int previousFibonacci = 0, currentFibonacci = 1, fibonacciNumber; 
+
+    cout << "Enter a non-negative number. "; 
+        cin >> userNumber; 
+
+    for (int i = 2; i <= userNumber; i++)
+    { 
+        
+    }
+    
+    
+
+    
+
+    
+}
