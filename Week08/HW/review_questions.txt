@@ -35,7 +35,7 @@ ANSWER: T
 ANSWER: T
 
 52. T   F   y < x is the same as x >= y
-ANSWER: T
+ANSWER: F
 
 53. T   F   x >= y is the same as (x > y && x = y)
 ANSWER: F
