@@ -25,8 +25,8 @@ The program should print the Fibonacci number for the user-defined integer.
 6. Initialize the current Fibonacci number to 1.
 7. Loop from 2 to the user-defined integer.
 8. In each iteration, calculate the Fibonacci number by adding the previous and current Fibonacci numbers.
-9. Update the current Fibonacci number to the new Fibonacci number.
-10. Update the previous Fibonacci number to the current Fibonacci number.
+9. Assign the current Fibonacci number to the previous Fibonacci number.
+10. Assign the new Fibonacci number to the current Fibnoacci number. 
 11. After the loop, print the Fibonacci number for the user-defined integer.
 12. Return 0 to indicate successful completion of the program.*/
 
@@ -38,24 +38,27 @@ using namespace std;
 
 int main (){
 
-    int fibonacciNumber; 
-    int currentFibonacci; 
-    int userNumber; 
-    int previousFibonacci; 
-    
-    int previousFibonacci = 0, currentFibonacci = 1, fibonacciNumber; 
+    int previousFibonacci = 0, currentFibonacci = 1, fibonacciNumber, userNumber = -1;
 
+    while (userNumber < 0) {
     cout << "Enter a non-negative number. "; 
-        cin >> userNumber; 
-
+    cin >> userNumber; 
+    }
+   
+    if (userNumber <= 1){
+        cout << userNumber << endl; 
+        return 0;
+    }
     for (int i = 2; i <= userNumber; i++)
     { 
-        
+       fibonacciNumber = currentFibonacci + previousFibonacci;
+       previousFibonacci = currentFibonacci; 
+       currentFibonacci = fibonacciNumber; 
     }
-    
-    
+    cout << fibonacciNumber << "\n"; 
+    return 0; 
 
-    
+
 
     
 }
