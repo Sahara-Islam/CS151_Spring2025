@@ -30,6 +30,8 @@ The program should print an error message if the input file cannot be opened.
     'C' - 'A' = 2
     ...
     'Z' - 'A' = 25
+    The condition of the if header should be: if (isalpha(character))
+    Or: if (toupper(character) >= 'A' && toupper(character) <= 'Z')
     Use the formula: index = toupper(character) - 'A' to get the index for the letter count array.
 12. Write the letter counts to the output file in the specified format.
 13. Loop from 'A' to 'Z'.
