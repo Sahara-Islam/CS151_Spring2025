@@ -2,3 +2,5 @@ Why should you be careful when choosing a sentinel value?
 
 ANSWER BELOW
 ****************************************************************************************
+sentinal value can be confused with real data
+it can also cause logic errors

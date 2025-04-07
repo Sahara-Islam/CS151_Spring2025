@@ -11,3 +11,17 @@ Assume you will use a counter variable named count.
 
 ANSWER BELOW
 ****************************************************************************************
+int count = 0
+count < 50
+count ++
+
+int main() {
+
+    for (int count =0; count <50; count++){
+        cout << "i love to program" << endl; 
+    }
+
+
+
+    return 0; 
+}

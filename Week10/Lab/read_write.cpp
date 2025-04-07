@@ -30,6 +30,8 @@ The program should print an error message if the input file cannot be opened.
     'C' - 'A' = 2
     ...
     'Z' - 'A' = 25
+    The condition of the if header should be: if (isalpha(character))
+    Or: if (toupper(character) >= 'A' && toupper(character) <= 'Z')
     Use the formula: index = toupper(character) - 'A' to get the index for the letter count array.
 12. Write the letter counts to the output file in the specified format.
 13. Loop from 'A' to 'Z'.
@@ -41,18 +43,38 @@ The program should print an error message if the input file cannot be opened.
 #include <fstream>
 #include <cctype> 
 
-int main() {
-    double inputFileName, outputFileName; 
+using namespace std; 
 
-    if (!inputFile.is_open)) ){
-        cout << "Error: Cannot open" << inputFileName << endl;
+int main() {
+    ifstream inputFileName;
+    
+    ofstream outputFileName;
+
+    inputFileName.open("content.txt");
+    outputFileName.open("counts.txt");
+
+    if (!inputFileName.is_open()|| !outputFileName.is_open()) {
+        cout << "Error: Cannot open file " << endl; 
         return 1; 
     }
+    
+    int letterCount[26] = {0}; 
 
+    char ch; 
+    while (inputFileName.get(ch)){
+        if (isalpha(ch)) {
+            int index = toupper(ch) - 'A';
+            letterCount[index]++;
+        }
 
+    }
 
+    for (char c = 'A'; c <= 'Z';c++) {
+        outputFileName << c << ": " << letterCount[c - 'A'] << endl; 
+    }
 
-
+    inputFileName.close();
+    outputFileName.close(); 
 
     return 0; 
 }

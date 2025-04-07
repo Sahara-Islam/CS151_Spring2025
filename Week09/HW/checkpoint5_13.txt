@@ -12,3 +12,5 @@ cout << "The sum of those numbers is " << y << endl;
 
 ANSWER BELOW
 ****************************************************************************************
+x is the counter variable
+y is the accumulator variable (?)
