@@ -14,6 +14,7 @@
 
 using namespace std;
 using namespace Presentations;
+
 void isPrimeTest();
 
 bool isPrime(int num); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
@@ -21,6 +22,7 @@ bool isPrime(int num); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
 int main()
 {
     isPrimeTest();
+    
     return 0;
 }
 
