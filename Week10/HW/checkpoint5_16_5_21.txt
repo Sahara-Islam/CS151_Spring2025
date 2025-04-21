@@ -1,29 +1,34 @@
 5.16 What is an output file? What is an input file?                                        ANSWER BELOW
 *******************************************************************************************************
-
+Output file is a faile that a program writes data to, input file is a file that a program reads data
+from. 
 *******************************************************************************************************
 
 5.17 What three steps must be taken when a file is used by a program?                      ANSWER BELOW
 *******************************************************************************************************
-
+1. open file 
+2. use the file
+3. close the file 
 *******************************************************************************************************
 
 5.18 What is the difference between a text file and a binary file?                         ANSWER BELOW
 *******************************************************************************************************
-
+test file stores readable characters, you can open + read it in any text editor like sticky notes. 
+binary file stores raw binary format (0's and 1's), it is not human readable. 
 *******************************************************************************************************
 
 5.19 What is the difference between sequential access and random access?                   ANSWER BELOW
 *******************************************************************************************************
-
+sequential access reads or writes data in order and random access is where you can jump to any part of 
+data. 
 *******************************************************************************************************
 
 5.20 What type of file stream object do you create if you want to write data to a file?    ANSWER BELOW
 *******************************************************************************************************
-
+ofstream
 *******************************************************************************************************
 
 5.21 What type of file stream object do you create if you want to read data from a file?   ANSWER BELOW
 *******************************************************************************************************
-
+ifstream
 *******************************************************************************************************
