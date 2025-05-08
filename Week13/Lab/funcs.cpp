@@ -31,4 +31,60 @@ Write a function called getRandom() with an int parameter max and an int
 
 Write a main function that calls each of the above functions
     with appropriate arguments and prints the results to the console.*/
+#include <iostream> 
+#include <ctime> 
+#include <string> 
+#include <iomanip> 
+#include <cstdlib>
 
+using namespace std; 
+
+void sayHello(string name = "world"){
+    cout << "Hello, " << name << "!" << endl; 
+}
+
+void allUpper(string& str){
+    for (int i = 0; i < str.length(); i++){
+        str[i] = toupper(str[i]); 
+    
+    }
+    
+
+}
+
+void alllower(string& str){
+    for (int i = 0; i < str.length(); i++){
+        str[i] = tolower(str[i]); 
+    
+    }
+    
+
+}
+
+int getRandom(int Max, int Min = 0){
+    srand(time(0)); 
+    return rand()&(Max + 1 - Min);
+}
+
+
+
+int main (){
+    sayHello("eve"); 
+    sayHello();
+
+    string a = "pineapple";
+    allUpper(a); 
+    cout << a << endl; 
+
+    string b = "STRAWBERRY";
+    alllower(b); 
+    cout << b << endl; 
+
+    cout << getRandom(1000); 
+
+    //cout << rand() << " ";
+
+
+
+    return 0; 
+}
