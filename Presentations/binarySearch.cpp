@@ -16,30 +16,51 @@
 
 #include <iostream>
 #include <cassert>
-#include "_functions.h"
 
 using namespace std;
-using namespace Presentations;
 
-void binarySearchTest();
 
-unsigned int binarySearch(int arr[], unsigned int size, int target); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
+int binarySearch(int arr[], unsigned int size, int target) {
+    int left = 0;
+    int right = size - 1;
 
-int main()
-{
-    binarySearchTest();
-    
-    return 0;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+
+        if (arr[mid] == target) {
+            return mid;
+        } else if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+
+    return -1;
 }
 
-void binarySearchTest()
-{
-    // binarySearch
+void binarySearchTest() {
     int arr[] = {-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
+
     assert(binarySearch(arr, 16, 0) == 10);
     assert(binarySearch(arr, 16, -10) == 0);
     assert(binarySearch(arr, 16, 5) == 15);
     assert(binarySearch(arr, 16, -5) == 5);
     assert(binarySearch(arr, 16, 6) == -1);
     assert(binarySearch(arr, 16, -11) == -1);
+
+    cout << "All binary search tests passed successfully!" << endl;
 }
+
+int main() {
+    binarySearchTest();
+    return 0;
+}
+
+// i wanted to kms while doing this, but the tuition $$ will go to waste 
+
+/* 
+-loop based binary search implement
+- divide & conquer 
+
+*/
