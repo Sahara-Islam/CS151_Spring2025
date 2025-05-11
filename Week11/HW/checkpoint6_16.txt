@@ -2,3 +2,5 @@ What is the difference between a static local variable and a global variable?
 
 ANSWER BELOW
 *****************************************************************
+static local var is only accessible where it's declared 
+global is delcated outside of all functions 

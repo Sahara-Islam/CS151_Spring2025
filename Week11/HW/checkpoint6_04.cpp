@@ -13,6 +13,13 @@ using namespace std;
 
 // You must write definitions for the two functions qualify
 // and noQualify.
+void qualify (){
+    cout << "Congrats! You qualify for our credit card." << endl; 
+}
+
+void noQualify(){
+    cout << "You do not qualify for our credit card." << endl;
+}
 
 int main()
 {
@@ -26,6 +33,7 @@ int main()
     cout << "How many years have you worked at your ";
     cout << "current job? ";
     cin >> years;
+
     if (salary >= 17000.0 && years >= 2)
         qualify();
     else

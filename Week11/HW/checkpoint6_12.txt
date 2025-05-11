@@ -3,3 +3,6 @@ double and have two double parameters: rate and time.
 
 ANSWER BELOW
 *****************************************************************
+
+void distance(double rate, double time); 
+

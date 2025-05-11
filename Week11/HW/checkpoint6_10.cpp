@@ -4,9 +4,13 @@ your hourly pay rate. It then calculates and displays your wages. The function
 showDollars, which you are to write, formats the output of the wages.
 */
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
-void showDollars(double); // Function prototype
+void showDollars(double amount) {
+    cout << fixed << showpoint << setprecision(2); 
+    cout << "your wages are $" << amount << endl; 
+} // Function prototype
 
 int main()
 {

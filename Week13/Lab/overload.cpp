@@ -18,46 +18,36 @@ Write a function called area() that takes two doubles as arguments
     The function should return the area as a double.
 
 Write a main function that calls each of the above functions
-    with appropriate arguments and prints the results to the console.*/
-    #include <iostream> 
-    #include <ctime> 
-    #include <string> 
-    #include <iomanip> 
-    #include <cstdlib>
+ with appropriate arguments and prints the results to the console.*/
 
-    using namespace std; 
+ #include <iostream> 
+#include <string>
+#include <iomanip>
 
-    void add(char a, char b, string &result) {
-        result = string(1, a) + b;
-        }
-    void add(char c, int count, string &result) {
-         result = string(count, c);
-        }
+using namespace std;
 
-    void area(double radius, double &result) {
-        const double PI = 3.141592653589793;
-        result = PI * radius * radius;
-        }
+string add(char a, char b) {
+    return string(1, a) + b;
+}
 
-     void area(double length, double width, double &result) {
-        result = length * width;
-        }
+string add(char c, int count) {
+    return string(count, c);
+}
 
-    int main() {
-        string addResult1, addResult2;
-        double areaResult1, areaResult2
+double area(double radius) {
+    const double PI = 3.141592653589793;
+    return PI * radius * radius;
+}
 
-        add('A', 'B', addResult1);
-        cout << "add('A', 'B') = " << addResult1 << endl;
+double area(double length, double width) {
+    return length * width;
+}
 
-        add('X', 5, addResult2);
-        cout << "add('X', 5) = " << addResult2 << endl;
+int main() {
+    cout << "add('A', 'B') = " << add('A', 'B') << endl;
+    cout << "add('X', 5) = " << add('X', 5) << endl;
+    cout << "area of circle with radius 3.0 = " << area(3.0) << endl;
+    cout << "area of rectangle 4.0 x 6.0 = " << area(4.0, 6.0) << endl;
 
-        area(3.0, areaResult1);
-        cout << "area of circle with radius 3.0 = " << areaResult1 << endl;
-
-        area(4.0, 6.0, areaResult2);
-        cout << "area of rectangle 4.0 x 6.0 = " << areaResult2 << endl;
-        
-        return 0; 
-    }
+    return 0;
+}

@@ -9,3 +9,6 @@ showNum(45.67);
 
 ANSWER BELOW
 *****************************************************************
+showNum(45.67); - function call 
+void showNum(double num) - function header
+void showNum(double); - function prototype

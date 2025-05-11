@@ -4,3 +4,7 @@ times ten. (Note: Just write the function. Do not write a complete program.)
 
 ANSWER BELOW
 *****************************************************************
+void timesTen(int count)
+{
+    cout << number * 10 << endl; 
+}

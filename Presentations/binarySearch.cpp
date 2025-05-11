@@ -56,11 +56,3 @@ int main() {
     binarySearchTest();
     return 0;
 }
-
-// i wanted to kms while doing this, but the tuition $$ will go to waste 
-
-/* 
--loop based binary search implement
-- divide & conquer 
-
-*/
