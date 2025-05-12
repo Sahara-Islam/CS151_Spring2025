@@ -1,7 +1,8 @@
 6.19:   What kinds of values may be specified as default arguments?
 **********************************************************************
 ANSWER HERE
-
+literals, null pointers, expressions that are made with contants + literals 
+global + local constants 
 **********************************************************************
 
 6.20:   Write the prototype and header for a function called compute. The function
@@ -10,7 +11,9 @@ ANSWER HERE
         the long parameter should have a default argument of 65536. The double
         parameter should not have a default argument.
 **********************************************************************
-ANSWER HERE
+ANSWER HERE 
+void compute (double num, int i, long l){}
+void compute(double num, int = 5, long l = 56636,);
 
 **********************************************************************
 
@@ -20,6 +23,9 @@ ANSWER HERE
         argument, which is 47.  
 **********************************************************************
 ANSWER HERE
+
+void calculate(double& num, long l, int i){}
+void calculate(double& num, long l, int = 47);
 
 **********************************************************************
 
@@ -46,7 +52,10 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
-
+5 10 15
+9 10 15 
+6 15 15 
+4 11 16
 **********************************************************************
 
 6.23:   The following program asks the user to enter two numbers. What is the output
@@ -87,7 +96,12 @@ ANSWER HERE
             a = b − c;
         }
 **********************************************************************
-ANSWER HERE
+ANSWER HERE 
+0 0 0 
+enter 2 numbers: 12, 14 
+12 14 0 
+14 15 -1 
+14 15 -1
 
 **********************************************************************
 
@@ -113,7 +127,7 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
-
+1.2 
 **********************************************************************
 
 6.25:   What is the output of the following program?
@@ -148,5 +162,5 @@ ANSWER HERE
 
 **********************************************************************
 ANSWER HERE
-
+30 
 **********************************************************************

@@ -4,6 +4,10 @@
     double absolute ( double number );
 *****************************************************************************************
 ANSWER HERE
+ double result = absolute(-5,7); 
+
+ double x = -12.3;
+ double result = absolute(x); 
 
 *****************************************************************************************
 
@@ -14,6 +18,7 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+double avg = average(num1, num2, num3);
 *****************************************************************************************
 
 34. A program contains the following function:
@@ -28,6 +33,7 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+double final_velocity = velocity(10.0, 50.5, 100);
 *****************************************************************************************
 
 35. Write a function isValid that accepts an argument, grade. The function returns true
@@ -35,6 +41,9 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+bool isValid(char grade){
+    return (grade >= 'A' && grade <= 'F');
+}
 *****************************************************************************************
 
 36. A program contains the following function:
@@ -52,7 +61,7 @@ ANSWER HERE
     char initial;
 *****************************************************************************************
 ANSWER HERE
-
+display(age, income, inital);
 *****************************************************************************************
 
 37. Write a function named getNumber that uses a reference parameter variable to accept
@@ -62,18 +71,28 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+void getNumber(int &num)
+int number; 
+getNumber(number); 
+
+i think this is what ur asking for idk 
+
 *****************************************************************************************
 
 Find the Errors
 
 Each of the following functions has errors. Locate as many errors as you can.
 
-56. int product ( int num1; int num2; int num3 )
+56. int product ( int num1;int num2; int num3 )
     {
         return num1 * num2 * num3;
     }
 *****************************************************************************************
 ANSWER HERE
+int product ( int num1, int num2, int num3 )
+    {
+        return num1 * num2 * num3;
+    }
 
 *****************************************************************************************
 
@@ -84,10 +103,15 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+double athird ( double number )
+    {
+        double value = number / 3;
+        return value;
+    }
 
 *****************************************************************************************
 
-58. void area(int length = 30, int width)
+58. void area(int length = 30, int width = 20)
     {
         return length * width;
     }
@@ -103,6 +127,8 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+void getValue(int& value)
 
 *****************************************************************************************
 
@@ -124,5 +150,19 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+int getValue(int) {
+    int inputValue;
+    cout << "Enter an integer: ";
+    cin >> inputValue;
+    return inputValue;
+}
+
+double getValue(double) {
+    double inputValue;
+    cout << "Enter a floating-point number: ";
+    cin >> inputValue;
+    return inputValue;
+}
 
 *****************************************************************************************

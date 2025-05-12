@@ -1,5 +1,10 @@
-What is the output of the following program? (You may need to consult the
-ASCII table in Appendix A.)
+
+//int values[5], count;
+//for (count = 0; count < 5; count++)
+  //  values[count] = count + 1;
+// for (count = 0; count < 5; count++)
+  //  cout << values[count] << endl;
+
 
 #include <iostream>
 using namespace std;
@@ -33,8 +38,3 @@ void showArray(const char codes[], int size)
         cout << codes[k];
     cout << endl;
 }
-
-ANSWER BELOW
-************************************************************************
-ABCDEFGH
-************************************************************************

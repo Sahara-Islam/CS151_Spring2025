@@ -7,5 +7,9 @@ string names[size];
 
 ANSWER BELOW
 ************************************************************************
+int readings[10];
+float measurements[5];
+const int size = 10; 
+string names[size];  
 
 ************************************************************************

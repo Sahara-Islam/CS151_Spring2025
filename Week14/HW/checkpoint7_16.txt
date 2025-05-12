@@ -2,5 +2,5 @@ When used as function arguments, are arrays passed by value?
 
 ANSWER BELOW
 ************************************************************************
-
+no arrays are not passed by value when its used as function arguments 
 ************************************************************************

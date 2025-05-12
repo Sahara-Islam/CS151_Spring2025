@@ -27,3 +27,13 @@ int main()
 //
 // Write the function avgArray here.
 //
+
+double avgArray(const int arr[], int size)
+{
+    int total = 0;
+
+    for (int i = 0; i < size; i++)
+        total += arr[i];
+
+    return static_cast<double>(total) / size;
+}

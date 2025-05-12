@@ -2,5 +2,9 @@ What would the valid subscript values be in a 4-element array of doubles?
 
 ANSWER BELOW
 ************************************************************************
-
+double arr[4]; 
+arr[0] = 1.1;   
+arr[1] = 2.2;  
+arr[2] = 3.3;   
+arr[3] = 4.4;
 ************************************************************************

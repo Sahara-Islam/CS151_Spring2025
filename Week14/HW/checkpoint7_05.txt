@@ -2,5 +2,7 @@ What is “array bounds checking”? Does C++ perform it?
 
 ANSWER BELOW
 ************************************************************************
-
+c++ doesnt do it automacitcally check if index is within array bounds. 
+array bounds checking is a process of checking if an index is used to 
+access an array element is within the valid range of array
 ************************************************************************

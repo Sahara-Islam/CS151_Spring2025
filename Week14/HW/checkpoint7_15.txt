@@ -2,5 +2,6 @@ When an array name is passed to a function, what is actually being passed?
 
 ANSWER BELOW
 ************************************************************************
-
+its being passed to it's memory address of the first element of the array
+a pointer to the first element 
 ************************************************************************
