@@ -27,11 +27,19 @@ Write a main function that calls each of the above functions
 using namespace std;
 
 string add(char a, char b) {
-    return string(1, a) + b;
+    string pink = "";
+    pink += a;
+    pink += b;
+    return pink; 
 }
 
-string add(char c, int count) {
-    return string(count, c);
+string add(char c, int times) {
+    string result = ""; 
+    for(int i = 0; i < times; i++){
+        result += c;
+    }
+
+    return result; 
 }
 
 double area(double radius) {

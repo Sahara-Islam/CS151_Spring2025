@@ -62,7 +62,7 @@ double percentError(double theoretical, double calculated) {
 }
 
 int main() {
-    srand(static_cast<unsigned int>(time(0)));
+    srand(time(0));
 
     const int NUM_ROLLS = 10; 
     const double THEORETICAL_AVG = 3.5;

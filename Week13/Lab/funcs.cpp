@@ -39,7 +39,7 @@ Write a main function that calls each of the above functions
 
 using namespace std; 
 
-void sayHello(string name = "world"){
+void sayHello(string name = "World"){
     cout << "Hello, " << name << "!" << endl; 
 }
 
@@ -61,9 +61,19 @@ void alllower(string& str){
 
 }
 
-int getRandom(int Max, int Min = 0){
-    srand(time(0)); 
-    return rand()&(Max + 1 - Min);
+int getRandom(int max, int min = 0){
+    static bool seeded = false; 
+    if (!seeded) {
+        srand(time(0));
+        seeded = true; 
+    }
+    if (max < min){
+        int temp = max; 
+        max = min; 
+        min = temp;
+    }
+
+    return rand()%(max + 1 - min) + min;
 }
 
 
