@@ -15,10 +15,12 @@ using namespace std;
 // and noQualify.
 void qualify (){
     cout << "Congrats! You qualify for our credit card." << endl; 
+    cout << "The annual interest rate is 12 percent." << endl; 
 }
 
 void noQualify(){
     cout << "You do not qualify for our credit card." << endl;
+    cout << "Applicants must earn at least 17,000 per year and have worked at their current job for at least 2 years." << endl; 
 }
 
 int main()

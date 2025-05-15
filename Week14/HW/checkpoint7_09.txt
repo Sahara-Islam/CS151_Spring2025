@@ -11,9 +11,9 @@ explain why.)
 ANSWER BELOW
 ************************************************************************
 (A) valid
-(B) no
+(B) no, there are too many values in slots
 (C) valid
-(D) no
-(E) valod
-(F) no
+(D) no, cannot have empty spaces between comas 
+(E) valid
+(F) no, there is no size declarator
 ************************************************************************

@@ -2,7 +2,7 @@
 **********************************************************************
 ANSWER HERE
 literals, null pointers, expressions that are made with contants + literals 
-global + local constants 
+global 
 **********************************************************************
 
 6.20:   Write the prototype and header for a function called compute. The function
@@ -12,8 +12,8 @@ global + local constants
         parameter should not have a default argument.
 **********************************************************************
 ANSWER HERE 
-void compute (double num, int i, long l){}
-void compute(double num, int = 5, long l = 56636,);
+void compute(double num, int = 5, long l = 65536);
+void compute (double num, int i, long l)
 
 **********************************************************************
 
@@ -24,8 +24,8 @@ void compute(double num, int = 5, long l = 56636,);
 **********************************************************************
 ANSWER HERE
 
-void calculate(double& num, long l, int i){}
 void calculate(double& num, long l, int = 47);
+void calculate(double& num, long l, int i)
 
 **********************************************************************
 
@@ -98,7 +98,7 @@ ANSWER HERE
 **********************************************************************
 ANSWER HERE 
 0 0 0 
-enter 2 numbers: 12, 14 
+Enter two numbers: 12, 14 
 12 14 0 
 14 15 -1 
 14 15 -1

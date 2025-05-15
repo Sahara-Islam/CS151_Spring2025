@@ -12,4 +12,8 @@ float measurements[5];
 const int size = 10; 
 string names[size];  
 
+Size declarator cannot create an array with nagetize size, must have positive 
+integers 
+array size must have whole number integers 
+needs constant expression
 ************************************************************************

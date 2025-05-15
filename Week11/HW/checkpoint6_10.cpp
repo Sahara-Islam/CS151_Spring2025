@@ -7,10 +7,8 @@ showDollars, which you are to write, formats the output of the wages.
 #include <iomanip>
 using namespace std;
 
-void showDollars(double amount) {
-    cout << fixed << showpoint << setprecision(2); 
-    cout << "your wages are $" << amount << endl; 
-} // Function prototype
+// Function Prototype 
+void showDollars(double amount);
 
 int main()
 {
@@ -22,6 +20,11 @@ int main()
     wages = hoursWorked * payRate;
     showDollars(wages);
     return 0;
+}
+
+void showDollars(double amount) {
+    cout << fixed << showpoint << setprecision(2); 
+    cout << "Your wages are $" << amount << endl; 
 }
 // You must write the definition of the function showDollars
 // here. It should take one parameter of the type double.

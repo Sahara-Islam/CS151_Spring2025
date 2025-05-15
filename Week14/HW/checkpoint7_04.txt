@@ -4,5 +4,5 @@ ANSWER BELOW
 ************************************************************************
 declarator is a # you specify when delcaring array & how many 
 elements the array will have 
-subscript # used inside [] brackets to modify a specific element 
+subscript # used inside [] brackets to modify or access a specific element
 ************************************************************************

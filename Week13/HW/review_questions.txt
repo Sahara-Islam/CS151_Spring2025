@@ -4,10 +4,10 @@
     double absolute ( double number );
 *****************************************************************************************
 ANSWER HERE
- double result = absolute(-5,7); 
+ double result = absolute(-5.7); 
 
  double x = -12.3;
- double result = absolute(x); 
+ cout << absolute(x) << endl; 
 
 *****************************************************************************************
 
@@ -18,7 +18,10 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
-double avg = average(num1, num2, num3);
+double average(double num1, double num2, double num3){
+    return (num1 + num2 + num3) / 3.0;
+}
+
 *****************************************************************************************
 
 34. A program contains the following function:
@@ -71,11 +74,13 @@ display(age, income, inital);
 *****************************************************************************************
 ANSWER HERE
 
-void getNumber(int &num)
-int number; 
-getNumber(number); 
+void getNumber(int &num){
+   do{
+     cout << "Enter a number between 1 and 100: "; 
+     cin >> num; 
+   } while (num < 1 || num > 100);
+} 
 
-i think this is what ur asking for idk 
 
 *****************************************************************************************
 
@@ -111,13 +116,16 @@ double athird ( double number )
 
 *****************************************************************************************
 
-58. void area(int length = 30, int width = 20)
+58. void area(int length = 30, int width)
     {
         return length * width;
     }
 *****************************************************************************************
 ANSWER HERE
-
+void area(int width, int length = 30)
+    {
+        return length * width;
+    }
 *****************************************************************************************
 
 59. void getValue(int value&)
@@ -129,6 +137,10 @@ ANSWER HERE
 ANSWER HERE
 
 void getValue(int& value)
+{
+    cout << "Enter a value: ";
+    cin >> value;
+}
 
 *****************************************************************************************
 
@@ -151,15 +163,13 @@ void getValue(int& value)
 *****************************************************************************************
 ANSWER HERE
 
-int getValue(int) {
-    int inputValue;
+int getValue(int inputValue) {
     cout << "Enter an integer: ";
     cin >> inputValue;
     return inputValue;
 }
 
-double getValue(double) {
-    double inputValue;
+double getValue(double inputValue) {
     cout << "Enter a floating-point number: ";
     cin >> inputValue;
     return inputValue;
